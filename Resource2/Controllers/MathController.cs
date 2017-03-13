@@ -5,7 +5,7 @@ namespace Resource2.Controllers
     [RoutePrefix("Math")]
     public class MathController : ApiController
     {
-        [Authorize]
+        //[Authorize]
         [HttpGet]
         [Route("Add")]
         public IHttpActionResult AddTwoNumbers(int a, int b)
